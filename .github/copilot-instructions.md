@@ -10,3 +10,4 @@ Project documentation is maintained in the `docs/` directory.
 
 - [Project Overview](../docs/project-overview.md) - Overview of the project
 - [Functional Requirements](../docs/functional-requirements.md) - Core TODO app behavior
+- [UI Guidelines](../docs/ui-guidelines.md) - Benchmarked visual, interaction, and accessibility guidance
