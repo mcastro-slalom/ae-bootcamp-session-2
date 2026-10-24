@@ -6,6 +6,8 @@ node_modules/
 # Testing
 /coverage
 /packages/*/coverage/
+/packages/backend/data/
+/packages/backend/*.sqlite
 
 # Production
 /packages/frontend/build

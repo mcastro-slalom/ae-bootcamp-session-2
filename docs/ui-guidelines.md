@@ -12,7 +12,7 @@ The following patterns were reviewed in public product and help pages. They info
 | [Microsoft To Do](https://www.microsoft.com/en-us/microsoft-365/microsoft-to-do-list-app) | Tasks are organized around lists, with a daily planning view and optional due dates and reminders. | Make the current task list the primary content. Defer daily planning, dates, and reminders until requirements call for them. |
 | [Google Tasks](https://support.google.com/tasks/answer/7675772) | Due dates and notifications support time-sensitive tasks. | Keep optional scheduling features out of the core interface for now; preserve a simple list that is easy to scan. |
 
-The common lesson is to make the task list and task capture obvious, while keeping planning features secondary. Do not add completion, scheduling, labels, or reminder controls unless the functional requirements are expanded to support them.
+The common lesson is to make the task list and task capture obvious, while keeping planning features secondary. Completion, editing, and status filters are in the current scope; scheduling, labels, and reminders remain deferred unless the functional requirements are expanded.
 
 ## Visual Direction
 
@@ -44,6 +44,9 @@ The common lesson is to make the task list and task capture obvious, while keepi
 - Submit the form with Enter as well as by activating the button. Keep keyboard tab order aligned with the visual order, and ensure every action is available without a pointer.
 - Aim for touch targets of at least 44 by 44 CSS pixels where practical. Keep controls usable at narrow mobile widths without horizontal scrolling.
 - After adding or deleting a task, update the visible list and provide clear feedback. Keep loading, empty, and error states visually distinct and understandable.
+- Use a labeled checkbox to complete or reopen a task. Pair the checked state with a non-color cue such as a checkmark and/or strikethrough.
+- Keep task editing explicit, with clear Save and Cancel actions. Preserve the draft if saving fails.
+- Present All, Active, and Completed as a compact filter group. Expose the selected filter state programmatically, and keep task counts secondary to the filter labels.
 
 ## Accessibility
 
