@@ -6,6 +6,7 @@ This file contains high-level instructions for GitHub Copilot to follow when gen
 
 ## Documentation Overview
 
-The project documentation will be built during the bootcamp sessions.
+Project documentation is maintained in the `docs/` directory.
 
 - [Project Overview](../docs/project-overview.md) - Overview of the project
+- [Functional Requirements](../docs/functional-requirements.md) - Core TODO app behavior
