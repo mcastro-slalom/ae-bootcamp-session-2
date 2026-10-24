@@ -12,3 +12,4 @@ Project documentation is maintained in the `docs/` directory.
 - [Functional Requirements](../docs/functional-requirements.md) - Core TODO app behavior
 - [UI Guidelines](../docs/ui-guidelines.md) - Benchmarked visual, interaction, and accessibility guidance
 - [Testing Guidelines](../docs/testing-guidelines.md) - Test conventions and quality expectations
+- [Coding Guidelines](../docs/coding-guidelines.md) - Code quality and implementation practices
